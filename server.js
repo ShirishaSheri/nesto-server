@@ -27,9 +27,12 @@ var logins =  [
               {username:'user1',password:'user123'},
               ]
 const authenticateJWT = (req, res, next) => {
+      if (!req.header('Authorization')) {
+        return res.status(401).send('Access Denied');
+    }
     var token = req.header('Authorization').split(' ')[1];
     console.log('token is ' + token);
-     if (!token) {
+    if (!token) {
         return res.status(401).send('Access Denied');
     }
     jwt.verify(token, "nesto", (err, user) => {
