@@ -3,6 +3,25 @@ const app = express();
 const jwt = require('jsonwebtoken');
 
 const port = process.env.PORT || 3000;
+const fs = require('fs');
+var products = {}
+var productDetails = {}
+
+//// Dummy Data loading
+fs.readFile('./data/products.json', function(err, data) { 
+
+    if (err) throw err; 
+
+    products = JSON.parse(data); 
+   
+});
+fs.readFile('./data/productDetails.json', function(err, data) { 
+
+    if (err) throw err; 
+
+    productDetails = JSON.parse(data); 
+   
+});  
 var logins =  [
               {username:'Shirisha',password:'shirisha123'},
               {username:'user1',password:'user123'},
@@ -56,12 +75,11 @@ app.get('/nesto/login', (req, res) => {
         res.send('login, failed!');
     }
 });
-app.get('/nesto/getHotels', authenticateJWT, (req,  res) => {
-  res.send('getting, Hotels success!');
+app.get('/nesto/getProducts', authenticateJWT, (req,  res) => {
+  res.json(products);
 });
-app.get('/nesto/gethotelDetails',authenticateJWT, (req, res) => {
-  var hotel = req.hotel;
-  res.send('login, success!');
+app.get('/nesto/getProductDetails',authenticateJWT, (req, res) => {
+  res.json(productDetails);
 });
 
 function generateJWT(payload) {

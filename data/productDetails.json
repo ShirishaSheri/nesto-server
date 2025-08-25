@@ -1,0 +1,250 @@
+{
+    "request_id": "4c065e84-a5a5-48a0-9ab9-45e4538afcd4",
+    "uuid": "4c065e84-a5a5-48a0-9ab9-45e4538afcd4",
+    "count": 1,
+    "total_count_without_applicable_filters": 1,
+    "slasher_percentage": 15,
+    "basic_amenities_label": "Select amenities below:",
+    "ratings_enabled": true,
+    "formatted_checkin_time": "12:00 PM",
+    "formatted_checkout_time": "11:00 AM",
+    "distance_multiplier": 1,
+    "hotels": [
+        {
+            "shortlisted": false,
+            "show_original_name": false,
+            "urgency_info_list": [],
+            "longitude": 78.56304718181491,
+            "latitude": 17.461687701974974,
+            "currency_id": 1,
+            "selected_category_id": 1,
+            "id": "195517",
+            "oyo_id": "HYD1997",
+            "map_link": "https://oyo.ac/PFK58aA",
+            "geo_location": "17.461687701974974,78.56304718181491",
+            "category": "OYO Rooms",
+            "display_category": "OYO Rooms",
+            "name": "Hotel O Ss Delight",
+            "address": "Srivari Plaza, Aphb Colony, Moula-ali, Meerpet, Hyderabad",
+            "hotel_type": "Hotel",
+            "currency_symbol": "₹",
+            "currency_code": "INR",
+            "ratings": {
+                "social_rating": {}
+            },
+            "point_of_interests": [
+                {
+                    "id": "google_record_ChIJg6EcInmcyzsRW8ozRJ7W9Ng",
+                    "name": "ECIL X Roads",
+                    "latitude": 17.4722,
+                    "longitude": 78.5693,
+                    "distance": 1.3439600058514913,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_bus"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "google_record_ChIJ7Z6EXAmbyzsRwuuijupK5o4",
+                    "name": "Neredmet X Road",
+                    "latitude": 17.482265,
+                    "longitude": 78.53711629999998,
+                    "distance": 3.5776899754539007,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_bus"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "gr_ChIJ1QxmKs-byzsRdLGGGBYsU18",
+                    "name": "Malkajgiri Junction",
+                    "latitude": 17.44828,
+                    "longitude": 78.5290656,
+                    "distance": 3.900749424002486,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_rail"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "gr_ChIJx8tkB0qcyzsR7KASQr5z-rU",
+                    "name": "Charlapalli",
+                    "latitude": 17.457756,
+                    "longitude": 78.6063345,
+                    "distance": 4.612336636197327,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_rail"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "google_record_ChIJS8MAyHyZyzsR_pZJwEdCpZ4",
+                    "name": "Tarnaka X Road",
+                    "latitude": 17.426273,
+                    "longitude": 78.53130899999996,
+                    "distance": 5.181018041404432,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_bus"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "google_record_ChIJ6duy0meZyzsRYQ-aKQ8aQro",
+                    "name": "Habsiguda Metro Station",
+                    "latitude": 17.4201809,
+                    "longitude": 78.54053420000002,
+                    "distance": 5.196658821785919,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_rail"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "google_record_ChIJpcyzqeScyzsRCSNcUrknXGE",
+                    "name": "Rampally X Roads Bus Stop",
+                    "latitude": 17.493721,
+                    "longitude": 78.6057025,
+                    "distance": 5.758020720171783,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_bus"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "google_record_ChIJETnU-1mayzsRnklcYac6xQw",
+                    "name": "State Highway 1",
+                    "latitude": 17.470471,
+                    "longitude": 78.50877289999994,
+                    "distance": 5.8390507417204525,
+                    "categories": [],
+                    "sub_categories": [],
+                    "location_type": "location"
+                },
+                {
+                    "id": "gr_ChIJ787iuZqbyzsRTgjkWr0IGXU",
+                    "name": "E.M.E Center Heliport",
+                    "latitude": 17.5010088,
+                    "longitude": 78.5250267,
+                    "distance": 5.94791365160539,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_air"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "gr_ChIJYRii7sObyzsRea2B3mRNkes",
+                    "name": "Dheeraj Govardhanagiri",
+                    "latitude": 17.4516587,
+                    "longitude": 78.50619999999999,
+                    "distance": 6.13226026857972,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_air"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "google_record_ChIJ-f4nU8CeyzsRJgZSFngAjfE",
+                    "name": "Mallikarjuna Nagar",
+                    "latitude": 17.407646,
+                    "longitude": 78.58648800000003,
+                    "distance": 6.503391875821245,
+                    "categories": [
+                        "Restaurants"
+                    ],
+                    "sub_categories": [
+                        "restaurant"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "google_record_ChIJuV0XSjGZyzsRbNakzYtN7bE",
+                    "name": "Uppal Ring Road Bus Stop",
+                    "latitude": 17.4007743,
+                    "longitude": 78.56046630000003,
+                    "distance": 6.778804895007347,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_bus"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "google_record_ChIJtTnpECSayzsRG9pZNsbAi0s",
+                    "name": "Secunderabad Railway Station Foot Over Bridge 3",
+                    "latitude": 17.435744,
+                    "longitude": 78.50456400000007,
+                    "distance": 6.841742481961848,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_rail"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "google_record_ChIJ_7PJU-yeyzsRb-oFw9geu1g",
+                    "name": "Hotel Tulips Grand",
+                    "latitude": 17.4080826,
+                    "longitude": 78.59701749999999,
+                    "distance": 6.965367079435861,
+                    "categories": [
+                        "Restaurants"
+                    ],
+                    "sub_categories": [
+                        "restaurant"
+                    ],
+                    "location_type": "location"
+                },
+                {
+                    "id": "2923174835",
+                    "name": "Alwal",
+                    "latitude": 17.504802,
+                    "longitude": 78.51467,
+                    "distance": 7.022009295584427,
+                    "categories": [
+                        "Transportation"
+                    ],
+                    "sub_categories": [
+                        "transport_rail"
+                    ],
+                    "location_type": "location"
+                }
+            ],
+            "category_wise_display_pricing": {},
+            "fixed_pricing": false
+        }
+    ],
+    "services_with_fallback": [
+        "TagElementService: TagElement api call fail - 400 "
+    ]
+}
