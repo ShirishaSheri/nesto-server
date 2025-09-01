@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const jwt = require('jsonwebtoken');
+app.use(express.json())
 
 const port = process.env.PORT || 3000;
 const fs = require('fs');
@@ -47,15 +48,16 @@ app.listen(port, () => {
 });
 
 
-
-app.get('/', (req, res) => {
+//Fetch Home Page Details
+app.get('/nesto/home', (req, res) => {
   res.send('Hello, Welcome to Nesto Server!');
 });
 
-
-app.get('/nesto/login', (req, res) => {
-  var usr = req.query.usr;
-  var pwd = req.query.pwd;
+//Login 
+app.post('/nesto/login', (req, res) => {
+  var usr = req.body.username;
+  var pwd = req.body.password;
+ 
   let obj = logins.find(o => o.username === usr);
   if(obj== undefined)
    {
@@ -78,13 +80,35 @@ app.get('/nesto/login', (req, res) => {
         res.send('login, failed!');
     }
 });
+//Get All Hotels
 app.get('/nesto/getProducts', authenticateJWT, (req,  res) => {
   res.json(products);
 });
+//Get  Hotel Details
 app.get('/nesto/getProductDetails',authenticateJWT, (req, res) => {
+  var hotelname = req.body.hotel;
+  console.log('hotel is ' +hotelname);
   res.json(productDetails);
 });
 
+//Post  Booking Summary
+app.post('/nesto/bookingsummary', function (req, res) {
+    var bookingsummary = req.body;
+    console.log(bookingsummary);
+
+    return res.send('Booking Done');
+});
+//Post  payment Summary
+app.post('/nesto/paymentSummary', function (req, res) {
+    var paymentSummary = req.body;
+    console.log(paymentSummary);
+
+    return res.send('Payment Confirmed');
+});
+//Booking Confirmation
+app.get('/nesto/getconfirmation',authenticateJWT, (req, res) => {
+  return res.send('Booking Confirmed');
+});
 function generateJWT(payload) {
   return jwt.sign(payload, "nesto", { expiresIn: '1h' });
 }
